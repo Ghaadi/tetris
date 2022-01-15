@@ -25,8 +25,7 @@ public class GameThread extends Thread implements KeyListener {
 		try {
 //			int i = 0;
 			for(int j = 0; j < 10; j++) {
-//				shape = shapes.getShape();
-				shape = 'T';
+				shape = shapes.getShape();
 				moveDown(shape);
 				GameBoard.MediaPlayer.playKnock();
 			}
